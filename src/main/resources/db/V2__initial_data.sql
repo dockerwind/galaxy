@@ -1,0 +1,15 @@
+INSERT INTO serie_pelicula (id, titulo, genero, fecha_estreno) VALUES (1, 'Star Wars', 'Ciencia Ficción', '1977-05-25');
+INSERT INTO serie_pelicula (id, titulo, genero, fecha_estreno) VALUES (2, 'Star Trek', 'Ciencia Ficción', '1966-09-08');
+INSERT INTO serie_pelicula (id, titulo, genero, fecha_estreno) VALUES (3, 'Battlestar Galactica', 'Ciencia Ficción', '2004-10-18');
+INSERT INTO serie_pelicula (id, titulo, genero, fecha_estreno) VALUES (4, 'The Expanse', 'Ciencia Ficción', '2015-12-14');
+INSERT INTO serie_pelicula (id, titulo, genero, fecha_estreno) VALUES (5, 'Guardians of the Galaxy', 'Acción/Aventura', '2014-08-01');
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (1, 'Millennium Falcon', 'Transporte', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 1);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (2, 'X-Wing', 'Combate', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 1);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (3, 'USS Enterprise', 'Exploración', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 2);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (4, 'Galactica', 'Combate', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 3);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (5, 'Razorback', 'Exploración', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 4);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (6, 'Rocinante', 'Combate', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 4);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (7, 'Milano', 'Transporte', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 5);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (8, 'TIE Fighter', 'Combate', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 1);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (9, 'Slave I', 'Transporte', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 1);
+INSERT INTO nave_espacial (id, nombre, tipo, fecha_creacion, ultima_modificacion, serie_pelicula_id) VALUES (10, 'Defiant', 'Combate', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, 2);
